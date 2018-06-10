@@ -1,6 +1,6 @@
 # TinyAppCenterClown
 
-A githook branch configuration tool
+An appcenter branch configuration tool that listens to github via githooks.
 
 ## What does it do?
 
