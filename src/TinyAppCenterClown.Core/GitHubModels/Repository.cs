@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TinyAppCenterClown.Core
+namespace TinyAppCenterClown.Core.GitHubModels
 {
     public class Repository
     {

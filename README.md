@@ -1,4 +1,4 @@
-# TinyAppCenterClown
+# TinyAppCenterClown (TACC)
 
 An appcenter branch configuration tool that listens to github via githooks.
 
@@ -177,3 +177,14 @@ public interface IWebHookHandler
     bool Handle(WebHookRequest request);
 }
 ```
+
+
+### Process
+
+1. User creates a feature branch called ```feature/takeoverworld``` and pushes the branch to origin (github).
+2. Github fires a webhook thingy to TACC.
+3. TACC handles the request through an implementation of IWebHookHandler
+4. TACC runs through the filter engine to determine if any Build Routes matches the push made.
+5. If there is a match we call AppCenter to see if that branch exists and if it's unconfigured.
+6. Configure the branch if it exists and is unconfigured.
+7. Profit!

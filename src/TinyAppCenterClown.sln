@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyAppCenterClown.Web", "TinyAppCenterClown.Web\TinyAppCenterClown.Web.csproj", "{B49EF05C-7AA6-4C8E-9E8D-988F841FD281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyAppCenterClown.Core", "TinyAppCenterClown.Core\TinyAppCenterClown.Core.csproj", "{110E1D29-B313-4954-9F5B-6F6FA0DB2803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyAppCenterClown.Tests", "TinyAppCenterClown.Tests\TinyAppCenterClown.Tests.csproj", "{C8F6C4B8-E264-4917-9683-D4EC390BD6D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B49EF05C-7AA6-4C8E-9E8D-988F841FD281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49EF05C-7AA6-4C8E-9E8D-988F841FD281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49EF05C-7AA6-4C8E-9E8D-988F841FD281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49EF05C-7AA6-4C8E-9E8D-988F841FD281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110E1D29-B313-4954-9F5B-6F6FA0DB2803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110E1D29-B313-4954-9F5B-6F6FA0DB2803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110E1D29-B313-4954-9F5B-6F6FA0DB2803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110E1D29-B313-4954-9F5B-6F6FA0DB2803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F6C4B8-E264-4917-9683-D4EC390BD6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F6C4B8-E264-4917-9683-D4EC390BD6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F6C4B8-E264-4917-9683-D4EC390BD6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F6C4B8-E264-4917-9683-D4EC390BD6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -16,8 +16,10 @@ namespace TinyAppCenterClown.Tests
             var handler = new GitHubWebHookHandler();
 
             // Act
-            handler.Handle(request);
+            var result = handler.Handle(request);
 
+            // Assert
+            Assert.True(result.Succeded);
         }
     }
 }
