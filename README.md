@@ -79,27 +79,27 @@ Draft of the public API (will be replaced by a swagger link later on)
 
 |Route|Method|Body|Description|
 |----|----|---|---|
-|```/api/projects```|GET|array of project-model|Gets all projects|
-|```/api/projects/{id}```|GET|project-model|Get a specific project|
-|```/api/projects```|POST|project-model|Creates a new project|
-|```/api/projects/{id}```|DELETE||Creates a new project|
-|```/api/projects/{id}```|PUT||Updates an existing project|
+|```/projects```|GET|array of project-model|Gets all projects|
+|```/projects/{id}```|GET|project-model|Get a specific project|
+|```/projects```|POST|project-model|Creates a new project|
+|```/projects/{id}```|DELETE||Creates a new project|
+|```/projects/{id}```|PUT||Updates an existing project|
 
 ### Webhook
 
 |Route|Method|Body|Description|
 |----|----|---|---|
-|```/api/projects/{id}/webhook```|POST|(github model)|Entrypoint of github webhook|
+|```/projects/{id}/webhook```|POST|(github model)|Entrypoint of github webhook|
 
 ### Build templates
 
 |Route|Method|Body|Description|
 |----|----|---|---|
-|```/api/projects/{project-id}/templates```|GET|array of template-model|Gets all build templates|
-|```/api/projects/{project-id}/templates}/{id}```|GET|template-model|Get a specific build template|
-|```/api/projects```|POST|template-model|Creates a new project|
-|```/api/projects/{project-id}/templates/{id}```|DELETE||Creates a new build template|
-|```/api/projects/{project-id}/templates/{id}```|PUT||Updates an existing build template|
+|```/projects/{project-id}/templates```|GET|array of template-model|Gets all build templates|
+|```/projects/{project-id}/templates}/{id}```|GET|template-model|Get a specific build template|
+|```/projects/{project-id}/templates```|POST|template-model|Creates a new project|
+|```/projects/{project-id}/templates/{id}```|DELETE||Creates a new build template|
+|```/projects/{project-id}/templates/{id}```|PUT||Updates an existing build template|
 
 ### Models
 
