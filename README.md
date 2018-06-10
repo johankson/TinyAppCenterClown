@@ -166,3 +166,14 @@ public interface IBuildSystemService
     void ConfigureBranch(BranchConfiguration configuration);
 }
 ```
+
+### IWebHookHandler
+
+Definition of interface to handle incoming github requests
+
+```csharp
+public interface IWebHookHandler
+{
+    bool Handle(WebHookRequest request);
+}
+```
